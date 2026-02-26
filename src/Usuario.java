@@ -1,4 +1,17 @@
 public class Usuario {
- private String nome;  
- private String cpf ;  
+    private String nome;  
+    
+    public Usuario (String nome) {
+        this.nome = nome;
+    }
+    
+    public String getNome() {
+         return nome;
+
+    }
+
+    public String GetDocumento() {
+
+        
+    }
 }
